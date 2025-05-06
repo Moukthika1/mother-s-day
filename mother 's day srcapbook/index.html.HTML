@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mother's Day Scrapbook</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scrapbook-background">
+        <h1 class="title">Happy Mother's Day!</h1>
+        <p class="intro-text">Click on the flowers, butterflies, and secret letters to uncover surprises.</p>
+
+        <!-- Interactive letters with animation -->
+        <div class="interactive-text">
+            <span class="crooked-letter">L</span>
+            <span class="crooked-letter">O</span>
+            <span class="crooked-letter">V</span>
+            <span class="crooked-letter">E</span>
+        </div>
+
+        <!-- Animated Butterflies -->
+        <div class="butterfly" onclick="moveButterfly(event)">🦋</div>
+
+        <!-- Flower animation -->
+        <div class="flower" onclick="bloomFlower(event)">🌸</div>
+
+        <!-- Crawling insects -->
+        <div class="crawling-insects">
+            <div class="insect"></div>
+            <div class="insect"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
